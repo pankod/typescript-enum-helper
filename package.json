@@ -1,0 +1,40 @@
+{
+  "name": "@pankod/typescript-npm-package-boilerplate",
+  "version": "1.0.0",
+  "description": "basic npm module project with typescript and jest",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --exec ts-node src/index.ts --watch src",
+    "test": "jest --watch",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankod/typescript-npm-package-boilerplate.git"
+  },
+  "author": "Pankod Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pankod/typescript-npm-package-boilerplate/issues"
+  },
+  "homepage": "https://github.com/pankod/typescript-npm-package-boilerplate#readme",
+  "keywords": [
+    "typescript",
+    "npm",
+    "npm package",
+    "generator"
+  ],
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.6",
+    "jest": "^24.7.1",
+    "nodemon": "^1.18.11",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.4"
+  }
+}

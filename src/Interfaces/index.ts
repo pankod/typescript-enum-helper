@@ -1,0 +1,1 @@
+export { IGods } from './IGods'
