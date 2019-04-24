@@ -1,4 +1,4 @@
-import { EnumHelper } from './Helper'
+import { EnumHelper } from '.'
 import { Gods } from './Interfaces';
 // enum Gods {
 //     Pan,

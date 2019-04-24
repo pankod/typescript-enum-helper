@@ -1,5 +1,5 @@
 // Local Imports
-import { EnumHelper } from '../Helper';
+import { EnumHelper } from '../index';
 import { Gods } from '../Interfaces';
 describe('Test Enum Helper Constructor', () => {
 

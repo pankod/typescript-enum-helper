@@ -1,1 +1,0 @@
-export { EnumHelper } from '../Helper/EnumHelper';
