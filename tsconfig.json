@@ -11,6 +11,12 @@
       "*": [
         "./",
       ],
+      "@Helpers": [
+        "src/Helper",
+      ],
+      "@Helpers/*": [
+        "src/Helper/*"
+      ],
       "typings/*": [
         "src/typings/*"
       ]
