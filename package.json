@@ -1,6 +1,6 @@
 {
   "name": "@pankod/typescript-enum-helper",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "typescript enum helper example",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
