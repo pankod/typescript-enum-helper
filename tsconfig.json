@@ -5,6 +5,7 @@
     "outDir": "dist",
     "sourceMap": false,
     "allowSyntheticDefaultImports": true,
+    "declaration": true,
     "baseUrl": ".",
     "paths": {
       "*": [

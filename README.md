@@ -4,11 +4,9 @@ You can use this enum-helper module to easier get the names and value in TypeScr
   <sub>Created by <a href="https://www.pankod.com">Pankod</a></sub>
 </div>
 
-<br/>
 ## Getting Started
-
 ```
-$ npm install typescript-enum-helper --save
+$ npm install @pankod/typescript-enum-helper --save
 ```
 <br/>
 
