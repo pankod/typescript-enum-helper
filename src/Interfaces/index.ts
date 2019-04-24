@@ -1,1 +1,1 @@
-export { IGods } from './IGods'
+export { Gods } from './GodsEnum'

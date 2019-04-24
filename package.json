@@ -1,11 +1,11 @@
 {
-  "name": "@pankod/typescript-npm-package-boilerplate",
+  "name": "@pankod/typescript-enum-helper",
   "version": "1.0.0",
-  "description": "basic npm module project with typescript and jest",
+  "description": "typescript enum helper example",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rimraf dist && tsc",
+    "build": "rm -rf dist/** && tsc",
     "start": "node dist/index.js",
     "dev": "nodemon --exec ts-node src/index.ts --watch src",
     "test": "jest --watch",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pankod/typescript-npm-package-boilerplate.git"
+    "url": "git+https://github.com/pankod/typescript-enum-helper.git"
   },
   "author": "Pankod Inc.",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pankod/typescript-npm-package-boilerplate/issues"
+    "url": "https://github.com/pankod/typescript-enum-helper/issues"
   },
-  "homepage": "https://github.com/pankod/typescript-npm-package-boilerplate#readme",
+  "homepage": "https://github.com/pankod/typescript-enum-helper#readme",
   "keywords": [
     "typescript",
     "npm",
