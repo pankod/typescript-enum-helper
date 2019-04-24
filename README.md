@@ -1,5 +1,3 @@
-# enum helper npm package
-
 You can use this enum-helper module to easier get the names and value in TypeScript.
 <br/>
 <div align="center">
