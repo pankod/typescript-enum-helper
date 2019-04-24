@@ -9,6 +9,7 @@
 </div>
 <br/>
 <br/>
+
 ## Getting Started
 ```
 $ npm install @pankod/typescript-enum-helper --save
