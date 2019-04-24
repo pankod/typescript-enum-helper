@@ -1,6 +1,6 @@
 # enum helper npm package
 
-You can use this enum-helper module to easier manipulate enums in TypeScript.
+You can use this enum-helper module to easier get the names and value in TypeScript.
 <br/>
 <div align="center">
   <sub>Created by <a href="https://www.pankod.com">Pankod</a></sub>
