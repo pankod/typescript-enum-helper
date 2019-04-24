@@ -12,7 +12,7 @@ $ npm install @pankod/typescript-enum-helper --save
 
 ## Usage
 ```
-import EnumHelper from '@pankod/typescript-enum-helper';
+import { EnumHelper } from '@pankod/typescript-enum-helper';
 ```
 
 ## API
@@ -34,23 +34,23 @@ enum Gods {
 ## Example in TypeScript
 
 ```
-import { EnumHelper } from './Helper'
-import { Gods } from './Interfaces';
-// enum Gods {
-//     Pan,
-//     Ares,
-//     Zeus,
-//     Hermes,
-//     Apollo,
-//     Uranus,
-//     Achelous,
-//     Atlas,
-//     Castor,
-//     Chaos,
-//     Hades,
-//     Heracles,
-//     Poseidon
-// }
+import { EnumHelper } from "@pankod/typescript-enum-helper"
+
+enum Gods {
+    Pan,
+    Ares,
+    Zeus,
+    Hermes,
+    Apollo,
+    Uranus,
+    Achelous,
+    Atlas,
+    Castor,
+    Chaos,
+    Hades,
+    Heracles,
+    Poseidon
+}
 
 // resultKeys will be equal to: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
 const resultKeys = EnumHelper.getKeys(Gods);
@@ -60,6 +60,5 @@ const resultValues = EnumHelper.getValues(Gods);
 
 // resultName  will be equal to: Pan
 const resultName = EnumHelper.getName(Gods, 0);
-
 
 ```
