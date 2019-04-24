@@ -1,4 +1,4 @@
-export module EnumHelper {
+export class EnumHelper {
 
 	/**
 	 *
@@ -6,7 +6,7 @@ export module EnumHelper {
 	 * description get all keys in enum
 	 * example output : [0,1,2,3,4...]
 	 */
-    export const getKeys = (Enum): object => {
+    static getKeys = (Enum): object => {
         const result = Object.keys(Enum).map(key => Enum[key]).filter(value => typeof value === 'number');
 
         return result;
@@ -18,7 +18,7 @@ export module EnumHelper {
 	 * description get all values in enum
 	 * example output : [a,b,c,d,e...]
 	 */
-    export const getValues = (Enum): object => {
+    static getValues = (Enum): object => {
         const result = Object.keys(Enum).map(key => Enum[key]).filter(value => typeof value === 'string');
 
         return result;
@@ -31,6 +31,6 @@ export module EnumHelper {
 	 * description get key value in enum
 	 * example output : A
 	 */
-    export const getName = (Enum, Value): string => Enum[Value];
+    static getName = (Enum, Value): string => Enum[Value];
 
 }
