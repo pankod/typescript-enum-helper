@@ -1,6 +1,6 @@
 {
   "name": "@pankod/typescript-enum-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "typescript enum helper example",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,8 +12,6 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm test",
     "preversion": "npm test",
-    "version": "npm run build && git add -A dist",
-    "postversion": "git push && git push --tags && rm -rf build/temp",
     "coverage": "jest --coverage"
   },
   "repository": {
